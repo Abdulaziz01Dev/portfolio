@@ -4,6 +4,7 @@ import "@/app/globals.css";
 import 'boxicons/css/boxicons.min.css';
 import Button from "@/Components/ui/Button";
 import MobileButton from "@/Components/ui/MobileButton";
+import Icon from "@/Assets/Remove-bg.ai_1745424329358.png";
 
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -11,11 +12,11 @@ const Header = () => {
     return (
         <header className="w-full h-[8vh] flex items-center px-4 relative justify-between">
             <div>
-                <img src="#" alt="This is my logo" />
+                <img src={Icon} alt="Dark logo" className="hidden dark:block" width="128px"/>
             </div>
 
             {/* 📱 Hamburger icon only on phone */}
-            <div className="md:hidden text-3xl z-50">
+            <div className="md:hidden text-3xl z-50" >
                 <i
                     className='bx bx-menu'
                     onClick={() => setIsOpen(!isOpen)}
@@ -25,7 +26,7 @@ const Header = () => {
 
             {/* 📱 Mobil menyu: faqat isOpen = true bo'lsa */}
             {isOpen && (
-                <div className="flex w-full flex-col gap-10 items-center justify-center h-screen fixed top-0 left-0 md:hidden justify-center bg-black z-40">
+                <div className="flex w-full flex-col gap-10 items-center h-screen fixed top-0 left-0 md:hidden justify-center bg-black z-40">
                     <ul className="flex w-[300px] flex-col gap-10 text-white text-2xl">
                         <a href="/" className="mobile-navbar-links">
                             <i className='bx bx-home'></i>
