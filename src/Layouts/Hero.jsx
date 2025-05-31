@@ -3,7 +3,7 @@ import Button from "@/Components/ui/Button";
 import "../app/globals.css";
 const Hero = () => {
     return (
-        <div className="flex flex-col gap-10 lg:flex-row px-10 lg:px-80 lg:items-center justify-center w-full h-screen">
+        <div className="flex flex-col gap-10 lg:flex-row px-5 lg:px-80 pt-10 lg:items-center justify-center w-full h-screen">
             {/*Faqatgina Desktopda ko'rinadi*/}
 
             <div className="flex-col gap-2 dark:text-white text-black w-full lg:w-[50vw] hidden lg:flex">

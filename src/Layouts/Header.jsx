@@ -12,7 +12,7 @@ const Header = () => {
         <>
             <header className="z-100 w-full h-[8vh] fixed lg:top-5 left-1/2 lg:rounded-full transform -translate-x-1/2 flex items-center px-4 lg:px-16 justify-between lg:transform lg:-translate-x-1/2 lg:w-[80%] bg-[#1e1e1e]">
                 <div>
-                    <img src="/Remove-bg.ai_1745424329358.png" alt="Dark logos" className="w-32 h-auto" />
+                    <img src="/Remove-bg.ai_1745424329358.png" alt="Dark logos" className="w-28 h-auto lg:w-32 lg:h-auto" />
                 </div>
 
                 {/* 📱 Hamburger icon */}
