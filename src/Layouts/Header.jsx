@@ -10,9 +10,9 @@ const Header = () => {
 
     return (
         <>
-            <header className="z-100 w-full h-[8vh] fixed lg:top-5 left-1/2 lg:rounded-full transform -translate-x-1/2 flex items-center px-4 lg:px-16 justify-between lg:transform lg:-translate-x-1/2 lg:w-[80%] bg-[#1e1e1e]">
+            <header className="z-100 w-full h-[8vh] fixed lg:top-5 left-1/2 lg:rounded-full transform shadow-md shadow-gray-[#1b1b1b] -translate-x-1/2 flex items-center px-4 lg:px-16 justify-between lg:transform lg:-translate-x-1/2 lg:w-[80%] bg-[#1b1b1b]">
                 <div>
-                    <img src="/Remove-bg.ai_1745424329358.png" alt="Dark logos" className="w-28 h-auto lg:w-32 lg:h-auto" />
+                    <img src="/Remove-bg.ai_1745424329358.png" alt="Dark logos" className="w-22 h-auto xl:w-32" />
                 </div>
 
                 {/* 📱 Hamburger icon */}

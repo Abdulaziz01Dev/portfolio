@@ -1,21 +1,28 @@
 import "./globals.css";
 import Header from "@/Layouts/Header";
-import { ThemeProvider } from 'next-themes'
+import { ThemeProvider } from "next-themes";
 
 export const metadata = {
-    title: 'Dzero - Null | Portfolio',
-    description: 'Built with Next.js and Tailwind CSS',
-}
+    title: "Dzero - Null | Portfolio",
+    description: "Built with Next.js and Tailwind CSS",
+};
 
 export default function RootLayout({ children }) {
-  return (
-    <html lang="en" suppressHydrationWarning>
-     <body>
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem className="bg-white dark:bg-[#1e1e1e] text-[#1e1e1e] dark:text-white">
-            <Header />
-            {children}
+    return (
+        <html lang="en" suppressHydrationWarning>
+        <head />
+        <body>
+        <ThemeProvider
+            attribute="class"
+            defaultTheme="system"
+            enableSystem
+        >
+            <div className="bg-white text-black dark:bg-[#1e1e1e] dark:text-white transition-colors duration-300">
+                <Header />
+                {children}
+            </div>
         </ThemeProvider>
-     </body>
-    </html>
-  );
+        </body>
+        </html>
+    );
 }

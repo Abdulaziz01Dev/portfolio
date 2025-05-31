@@ -6,8 +6,8 @@ import OtherSkills from "@/Components/ui/OtherSkills";
 
 const Skills = () => {
     return (
-        <div className="flex flex-col gap-6 w-full h-[60vh] mt-5 px-16 lg:px-80">
-            <div className="flex justify-center border-4 dark:border-gray-200 border-black text-2xl py-4 w-[200px]">
+        <section className="flex flex-col items-center pb-16 lg:items-left gap-6 w-full mt-5 px-16 lg:px-80">
+            <div className="flex justify-center lg:items-left border-4 dark:border-gray-200 border-black text-2xl py-4 w-[200px]">
                 <h1 className="dark:text-white text-black">Skills</h1>
             </div>
             <div className="skills-tabs">
@@ -28,7 +28,7 @@ const Skills = () => {
                     <OtherSkills />
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 export default Skills

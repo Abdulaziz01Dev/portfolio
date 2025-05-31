@@ -3,8 +3,8 @@ import Skills from "@/Components/ui/Skills";
 
 const AboutMe = () => {
     return (
-        <div className="w-full flex gap-5 flex-col xl:flex-row px-5 lg:px-80 dark:text-white text-black">
-            <div className="w-full lg:w-[50%]">
+        <div className="w-full flex gap-5 flex-col xl:flex-row px-5 mt-64 lg:px-80 dark:text-white text-black">
+            <div className="w-full h-[50%] lg:w-[50%]">
                 <img src="/AboutMe.png" alt="This is the best image"/>
             </div>
             <div className="flex flex-col gap-5 lg:w-[50%]">
