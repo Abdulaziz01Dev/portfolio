@@ -13,26 +13,26 @@ const Hero = () => {
                     <h1>Full Stack</h1>
                     <h1>Developer</h1>
                 </div>
-                <div className="flex flex-col gap-2 lg:mt-26">
+                <div className="flex flex-col gap-2">
                     <p className="paragraph">Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium. Turpis tempus pharetra</p>
                     <Button text="Hire me"/>
                 </div>
             </div>
             <div className="flex-col gap-2 w-full lg:w-[50vw] justify-center items-center hidden lg:flex">
                 <img src="/HeroImage.png" alt="Shunchaki asosiy rasm" className="w-[70%] h-auto"/>
-                <div className="flex gap-3 text-2xl dark:text-white text-black">
-                    <a href="#"><i className="bx bxl-github"></i></a>
-                    <a href="#"><i className="bx bxl-youtube"></i></a>
-                    <a href="#"><i className="bx bxl-telegram"></i></a>
-                    <a href="#"><i className="bx bxl-instagram"></i></a>
+                <div className="flex gap-3 dark:text-white text-black">
+                    <a href="https://www.github.com/"><i className="bx bxl-github icons"></i></a>
+                    <a href="https://www.youtube.com/@Milanus1s"><i className="bx bxl-youtube icons"></i></a>
+                    <a href="t.me://asusZeen/"><i className="bx bxl-telegram icons"></i></a>
+                    <a href="https://www.instagram.com/"><i className="bx bxl-instagram icons"></i></a>
                 </div>
             </div>
 
         {/*    Bu esa mobileda ko'rinadi*/}
 
             <div className="flex flex-col gap-2 w-full lg:w-[50vw] justify-center items-center mt-10 lg:hidden">
-                <img src="/HeroImage.png" alt="Shunchaki asosiy rasm" className="w-80 h-auto"/>
-                <div className="flex gap-3 text-2xl dark:text-white text-black">
+                <img src="/HeroImage.png" alt="Shunchaki asosiy rasm" className="w-3/4 h-auto"/>
+                <div className="flex gap-3 text-4xl dark:text-white text-black">
                     <a href="#"><i className="bx bxl-github"></i></a>
                     <a href="#"><i className="bx bxl-youtube"></i></a>
                     <a href="#"><i className="bx bxl-telegram"></i></a>

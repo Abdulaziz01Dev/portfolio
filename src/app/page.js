@@ -6,9 +6,11 @@ import "./globals.css";
 import MySkills from "@/Layouts/Skills";
 import React from "react";
 import 'aos/dist/aos.css'       // AOS CSS
+import Projects from "@/Layouts/Projects";
 
 import { useEffect } from 'react'
 import AOS from 'aos'
+import Footer from "@/Layouts/Footer";
 
 export default function Home() {
   useEffect(() => {
@@ -23,6 +25,8 @@ export default function Home() {
       <Hero />
         <AboutMe />
         <MySkills />
+      <Projects />
+      <Footer />
     </div>
   );
 }
