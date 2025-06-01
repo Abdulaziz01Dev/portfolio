@@ -7,24 +7,24 @@ const Hero = () => {
             {/*Faqatgina Desktopda ko'rinadi*/}
 
             <div className="flex-col gap-2 dark:text-white text-black w-full lg:w-[50vw] hidden lg:flex">
-                <h6 className="text-2xl lg:text-3xl">Hi I am</h6>
-                <h5 className="text-3xl  text-amber-600 uppercase font-mono">Abdulaziz Vohobjonov</h5>
-                <div className="flex flex-col gap-0 text-3xl xl:text-7xl">
-                    <h1>Full Stack</h1>
-                    <h1>Developer</h1>
+                <h6 className="text-2xl lg:text-4xl" data-aos="fade-right" data-aos-delay="1200">Hi I am</h6>
+                <h5 className="text-4xl  text-amber-600 uppercase font-mono" data-aos="fade-right" data-aos-delay="900">Abdulaziz Vohobjonov</h5>
+                <div className="flex flex-col gap-0 text-3xl xl:text-9xl">
+                    <h1 data-aos="fade-right" data-aos-delay="700">Full Stack</h1>
+                    <h1 data-aos="fade-right" data-aos-delay="500">Developer</h1>
                 </div>
                 <div className="flex flex-col gap-2">
-                    <p className="paragraph">Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium. Turpis tempus pharetra</p>
-                    <Button text="Hire me"/>
+                    <p className="paragraph" data-aos="fade-right" data-aos-delay="300">Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium. Turpis tempus pharetra</p>
+                    <Button text="Hire me" dateAos="fade-right"/>
                 </div>
             </div>
             <div className="flex-col gap-2 w-full lg:w-[50vw] justify-center items-center hidden lg:flex">
-                <img src="/HeroImage.png" alt="Shunchaki asosiy rasm" className="w-[70%] h-auto"/>
+                <img src="/HeroImage.png" alt="Shunchaki asosiy rasm" className="w-[70%] h-auto" data-aos="zoom-in-center" data-aos-delay="900"/>
                 <div className="flex gap-3 dark:text-white text-black">
-                    <a href="https://www.github.com/"><i className="bx bxl-github icons"></i></a>
-                    <a href="https://www.youtube.com/@Milanus1s"><i className="bx bxl-youtube icons"></i></a>
-                    <a href="t.me://asusZeen/"><i className="bx bxl-telegram icons"></i></a>
-                    <a href="https://www.instagram.com/"><i className="bx bxl-instagram icons"></i></a>
+                    <a href="https://www.github.com/" data-aos="fade-up" data-aos-delay="100"><i className="bx bxl-github icons"></i></a>
+                    <a href="https://www.youtube.com/@Milanus1s" data-aos="fade-up" data-aos-delay="300"><i className="bx bxl-youtube icons"></i></a>
+                    <a href="t.me://asusZeen/" data-aos="fade-up" data-aos-delay="500"><i className="bx bxl-telegram icons"></i></a>
+                    <a href="https://www.instagram.com/" data-aos="fade-up" data-aos-delay="700"><i className="bx bxl-instagram icons"></i></a>
                 </div>
             </div>
 

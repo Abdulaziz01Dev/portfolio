@@ -36,8 +36,8 @@ const MobileNavbar = () => {
                     <li>Projects</li>
                 </a>
                 <a href="/Skill" className="mobile-navbar-links">
-                    <i className='bx bx-star'></i>
-                    <li>Skills</li>
+                    <i className='bx bx-desktop'></i>
+                    <li>Desktop App</li>
                 </a>
                 <a href="/Conact" className="mobile-navbar-links">
                     <i className='bx bxs-contact'></i>

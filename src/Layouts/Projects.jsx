@@ -9,11 +9,11 @@ const Projects = () => {
     const [selected, setSelected] = useState("All");
 
     return (
-        <section className="dark:text-white w-full pt-16 text-black flex flex-col gap-4">
-            <div className="flex flex-col items-center text-center gap-4">
-                <h1 className="text-4xl lg:text-6xl">My Projects</h1>
-                <p className="paragraph">Lorem ipsum dolor sit amet consectetur. Mollis erat duis aliquam mauris est risus lectus. Phasellus consequat urna tellus</p>
+        <section className="dark:text-white w-full pt-16 items-center text-black flex flex-col gap-10">
+            <div className="flex justify-center lg:items-center border-4 dark:border-gray-200 border-black text-2xl py-4 w-[200px]">
+                <h1>My Projects</h1>
             </div>
+            <p className="paragraph text-center">Lorem ipsum dolor sit amet consectetur. Mollis erat duis aliquam mauris est risus lectus. Phasellus consequat urna tellus</p>
 
             {/* Navbar */}
             <Project selected={selected} setSelected={setSelected} />

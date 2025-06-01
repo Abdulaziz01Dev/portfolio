@@ -10,13 +10,14 @@ import Projects from "@/Layouts/Projects";
 
 import { useEffect } from 'react'
 import AOS from 'aos'
-import Footer from "@/Layouts/Footer";
 
 export default function Home() {
   useEffect(() => {
     AOS.init({
       // optionlarni shu yerda yozishingiz mumkin, masalan:
       duration: 1000,
+      once: false,
+      mirror: true, // Scroll past -> animate again
     })
   }, [])
 
@@ -26,7 +27,6 @@ export default function Home() {
         <AboutMe />
         <MySkills />
       <Projects />
-      <Footer />
     </div>
   );
 }
