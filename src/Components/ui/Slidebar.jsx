@@ -50,11 +50,11 @@ const Slidebar = ({ text, percentage = 70 }) => {
             <div className="w-full h-[10px] bg-gray-200 rounded-full relative overflow-visible">
                 <div
                     ref={barRef}
-                    className="h-full bg-orange-500 rounded-full"
+                    className="h-full bg-purple-500 rounded-full"
                 ></div>
                 <div
                     ref={dotRef}
-                    className="w-6 h-6 bg-white border-2 border-orange-500 rounded-full -top-1 absolute"
+                    className="w-6 h-6 bg-white border-2 border-purple-500 rounded-full -top-1 absolute"
                 ></div>
             </div>
         </div>
