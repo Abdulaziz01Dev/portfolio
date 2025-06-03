@@ -8,6 +8,9 @@ import BackgroundVideo from "@/Layouts/BackgroundVideo";
 export const metadata = {
     title: "Dzero - Null | Portfolio",
     description: "Built with Next.js and Tailwind CSS",
+    icons: {
+        icon: '/Remove-bg.ai_1745424329358.png', // yoki .png bo'lsa: '/favicon.png'
+    },
 };
 
 export default function RootLayout({ children }) {

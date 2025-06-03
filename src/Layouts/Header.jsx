@@ -10,10 +10,9 @@ const Header = () => {
 
     return (
         <>
-            <header className="z-100 w-full h-[8vh] fixed lg:top-5 left-1/2 lg:rounded-full transform shadow-md shadow-gray-[#1b1b1b] -translate-x-1/2 flex items-center px-4 lg:px-16 justify-between lg:transform lg:-translate-x-1/2 lg:w-[80%] bg-[#060112]">
+            <header className="z-100 overflow-hidden w-full h-[8vh] fixed lg:top-5 left-1/2 lg:rounded-full transform shadow-md shadow-gray-[#1b1b1b] -translate-x-1/2 flex items-center px-4 lg:px-16 justify-between lg:transform lg:-translate-x-1/2 lg:w-[80%] bg-[#060112]">
                 <div className="flex items-center gap-1">
-                    <img src="/Remove-bg.ai_1745424329358.png" alt="Dark logos" className="w-22 h-auto xl:w-32" />
-                    <h1>Null Dzero by Abdulaziz</h1>
+                    <img src="/iconka.png" alt="Dark logos" className="w-22 h-auto xl:w-32" />
                 </div>
 
                 {/* 📱 Hamburger icon */}
@@ -35,7 +34,7 @@ const Header = () => {
                         <a href="/Skill" className="desktop-navbar-link"><li>Desktop App</li></a>
                         <a href="/Conact" className="desktop-navbar-link"><li>Contact</li></a>
                     </ul>
-                    <Button text="Download CV" />
+                    <Button text="Download CV"/>
                 </div>
             </header>
 

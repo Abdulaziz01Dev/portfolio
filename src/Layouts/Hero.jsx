@@ -9,7 +9,7 @@ const Hero = () => {
             <div className="flex-col gap-2 dark:text-white text-black w-full lg:w-[50vw] hidden lg:flex">
                 <h6 className="text-2xl lg:text-4xl" data-aos="fade-right" data-aos-delay="1200">Hi I am</h6>
                 <h5 className="text-4xl  text-purple-600 uppercase font-mono" data-aos="fade-right" data-aos-delay="900">Abdulaziz Vohobjonov</h5>
-                <div className="flex flex-col gap-0 text-3xl xl:text-9xl">
+                <div className="flex flex-col gap-0 text-3xl xl:text-7xl">
                     <h1 data-aos="fade-right" data-aos-delay="700">Full Stack</h1>
                     <h1 data-aos="fade-right" data-aos-delay="500">Developer</h1>
                 </div>
