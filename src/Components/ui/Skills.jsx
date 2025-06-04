@@ -4,10 +4,10 @@ import Slidebar from "@/Components/ui/Slidebar";
 const Skills = () => {
     return (
         <div className="flex flex-col gap-6">
-            <Slidebar text="Cyber Securty" percentage={90} />
-            <Slidebar text="Website Design" percentage={86} />
-            <Slidebar text="App Design" percentage={96} />
-            <Slidebar text="Mobile Developer" percentage={90} />
+            <Slidebar text="Web Dasturlash" percentage={75} />
+            <Slidebar text="WebSitelar Disayni" percentage={80} />
+            <Slidebar text="Robototexnika" percentage={46} />
+            <Slidebar text="Mobil Dasturlash" percentage={79} />
         </div>
     )
 }

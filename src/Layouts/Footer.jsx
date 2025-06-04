@@ -10,27 +10,27 @@ const Footer = () => {
                    </div>
                    <ul className="flex flex-col lg:flex-row w-full xl:w-auto lg:items-center lg:gap-10 gap-5">
                        <a href="/" className="footer-navbar-link">
-                           <i className='bx bx-home'></i><li>Home</li>
+                           <i className='bx bx-home'></i><li>Asosiy</li>
                        </a>
                        <a href="/About" className="footer-navbar-link">
                            <i className='bx bx-pen'></i>
-                           <li>About Me</li>
+                           <li>Men Haqimda</li>
                        </a>
                        <a href="/Mobile" className="footer-navbar-link">
                            <i className='bx bx-mobile'></i>
-                           <li>Mobile App</li>
+                           <li>Mobil Dasturlarim</li>
                        </a>
                        <a href="/Project" className="footer-navbar-link">
                            <i className='bx bx-file'></i>
-                           <li>Projects</li>
+                           <li>Proyektlar</li>
                        </a>
                        <a href="/Skill" className="footer-navbar-link">
                            <i className='bx bx-desktop'></i>
-                           <li>Desktop App</li>
+                           <li>Kampyuter Dasturi</li>
                        </a>
                        <a href="/Conact" className="footer-navbar-link">
                            <i className='bx bxs-contact'></i>
-                           <li>Contact</li>
+                           <li>Bog'lanish</li>
                        </a>
                    </ul>
                    <div className="flex w-full dark:text-white xl:w-auto text-black">
@@ -42,7 +42,7 @@ const Footer = () => {
                </div>
            </div>
             <div className="flex bg-[#120220] items-center w-full h-14 justify-center">
-                <h1 className=" text-lg xl:text-xl text-[#a9a9a9]">© 2025 Dzero-Null All Rights Reserved, INC.</h1>
+                <h1 className=" text-lg xl:text-xl text-[#a9a9a9]">© 2025 Dzero-Null Barcha Huquqlar Himoyalangan, INC.</h1>
             </div>
         </div>
     )

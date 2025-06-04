@@ -21,27 +21,27 @@ const MobileNavbar = () => {
             <ul className="flex w-[300px] flex-col gap-10 text-white text-2xl">
                 <a href="/" className="mobile-navbar-links">
                     <i className='bx bx-home'></i>
-                    <li>Home</li>
+                    <li>Asosiy</li>
                 </a>
                 <a href="/About" className="mobile-navbar-links">
                     <i className='bx bx-pen'></i>
-                    <li>About Me</li>
+                    <li>Men Haqimda</li>
                 </a>
                 <a href="/Mobile" className="mobile-navbar-links">
                     <i className='bx bx-mobile'></i>
-                    <li>Mobile App</li>
+                    <li>Mobil Dasturlarim</li>
                 </a>
                 <a href="/Project" className="mobile-navbar-links">
                     <i className='bx bx-file'></i>
-                    <li>Projects</li>
+                    <li>Proyektlarim</li>
                 </a>
                 <a href="/Skill" className="mobile-navbar-links">
                     <i className='bx bx-desktop'></i>
-                    <li>Desktop App</li>
+                    <li>Kampyuter Dasturi</li>
                 </a>
                 <a href="/Conact" className="mobile-navbar-links">
                     <i className='bx bxs-contact'></i>
-                    <li>Conact</li>
+                    <li>Bog'lanish</li>
                 </a>
                 <MobileButton />
             </ul>

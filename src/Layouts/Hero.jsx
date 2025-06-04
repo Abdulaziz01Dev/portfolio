@@ -7,14 +7,15 @@ const Hero = () => {
             {/*Faqatgina Desktopda ko'rinadi*/}
 
             <div className="flex-col gap-2 dark:text-white text-black w-full lg:w-[50vw] hidden lg:flex">
-                <h6 className="text-2xl lg:text-4xl" data-aos="fade-right" data-aos-delay="1200">Hi I am</h6>
-                <h5 className="text-4xl  text-purple-600 uppercase font-mono" data-aos="fade-right" data-aos-delay="900">Abdulaziz Vohobjonov</h5>
+                <h6 className="text-2xl lg:text-4xl" data-aos="fade-right" data-aos-delay="1200">Salom, men</h6>
+                <h5 className="text-4xl  text-purple-600 uppercase font-mono" data-aos="fade-right" data-aos-delay="900">Abdulaziz Vohobjonovman</h5>
                 <div className="flex flex-col gap-0 text-3xl xl:text-7xl">
-                    <h1 data-aos="fade-right" data-aos-delay="700">Full Stack</h1>
-                    <h1 data-aos="fade-right" data-aos-delay="500">Developer</h1>
+                    <h1 data-aos="fade-right" data-aos-delay="700">Web & Mobile</h1>
+                    <h1 data-aos="fade-right" data-aos-delay="500">Dasturchi</h1>
                 </div>
                 <div className="flex flex-col gap-2">
-                    <p className="paragraph" data-aos="fade-right" data-aos-delay="300">Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium. Turpis tempus pharetra</p>
+                    <p className="paragraph" data-aos="fade-right" data-aos-delay="300">Men <a className="text-purple-500" href="https://dzero-null.vercel.app">DZERO NULL</a> ning asoschisiman. Yoshim 15 da. Dasturlashni <a
+                        href="https://www.mohirdev.uz" className="text-purple-500">Mohirdev</a>dan va boshqa o'zbek hamda inglis kontentlaridan o'rganganman.</p>
                     <Button text="Hire me" dateAos="fade-right"/>
                 </div>
             </div>
@@ -40,16 +41,17 @@ const Hero = () => {
                 </div>
             </div>
             <div className="flex flex-col gap-2 dark:text-white text-black w-full lg:w-[50vw] lg:hidden">
-                <h6 className="text-2xl lg:text-3xl" data-aos="fade-right" data-aos-delay="900">Hi I am</h6>
-                <h5 className="text-3xl lg:text-4xl text-purple-600 uppercase" data-aos="fade-right" data-aos-delay="1000">Abdulaziz Vohobjonov</h5>
+                <h6 className="text-2xl lg:text-3xl" data-aos="fade-right" data-aos-delay="900">Salom, men</h6>
+                <h5 className="text-3xl lg:text-4xl text-purple-600 uppercase" data-aos="fade-right" data-aos-delay="1000">Abdulaziz Vohobjonovman</h5>
                 {/*For mobile*/}
                 <div className="flex flex-col text-3xl lg:hidden gap-4">
-                    <h1 data-aos="fade-right" data-aos-delay="1100" className="text-5xl">Full Stack</h1>
-                    <h1 data-aos="fade-right" data-aos-delay="1200" className="text-5xl">Developer</h1>
+                    <h1 data-aos="fade-right" data-aos-delay="1100" className="text-5xl">Web & Mobile</h1>
+                    <h1 data-aos="fade-right" data-aos-delay="1200" className="text-5xl">Dasturchi</h1>
                 </div>
                 <div className="flex flex-col gap-2 lg:mt-26">
-                    <p className="paragraph" data-aos="fade-right" data-aos-delay="1300">Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium. Turpis tempus pharetra</p>
-                    <Button text="Hire me" dateAos="fade-up"/>
+                    <p className="paragraph" data-aos="fade-right" data-aos-delay="1300">Men <a className="text-purple-500" href="https://dzero-null.vercel.app">DZERO NULL</a> ning asoschisiman. Yoshim 15 da. Dasturlashni <a
+                        href="https://www.mohirdev.uz" className="text-purple-500">Mohirdev</a>dan va boshqa o'zbek hamda inglis kontentlaridan o'rganganman. <a className="text-purple-500" href="/More">Ko'proq Ma'lumot Uchun</a></p>
+                    <Button text="Men Bilan Bog'lanish" dateAos="fade-up"/>
                 </div>
             </div>
         </section>
