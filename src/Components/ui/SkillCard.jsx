@@ -10,7 +10,12 @@ const SkillCard = ({ image, title, description, dateAos, dateDelay }) => {
     };
 
     return (
-        <div data-aos={dateAos} data-aos-delay={dateDelay} className={`card-container ${isFlipped ? "flipped" : ""}`} onClick={handleClick}>
+        <div
+            data-aos={dateAos}
+            data-aos-delay={dateDelay}
+            className={`card-container ${isFlipped ? "flipped" : ""}`}
+            onClick={handleClick}
+        >
             <div className="card-inner">
                 <div className="card-front">
                     <img src={image} alt="Skill icon" className="w-24 h-24" />
@@ -22,6 +27,8 @@ const SkillCard = ({ image, title, description, dateAos, dateDelay }) => {
                 </div>
             </div>
         </div>
+
+
     );
 };
 

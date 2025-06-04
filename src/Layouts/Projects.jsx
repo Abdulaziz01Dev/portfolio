@@ -10,8 +10,10 @@ const Projects = () => {
 
     return (
         <section className="dark:text-white w-full pt-16 items-center text-black flex flex-col gap-10">
-            <div className="flex justify-center lg:items-center border-4 dark:border-gray-200 border-black text-2xl py-4 w-[200px]">
-                <h1>Mening Proyektlarim</h1>
+            <div className="flex justify-center lg:items-center">
+                <h1 className="text-3xl text-gray-200 uppercase border-2 xl:transition-colors duration-300 border-purple-500 inline-block p-4 xl:hover:bg-purple-500 rounded-2xl cursor-pointer">
+                    Mening Proyektlarim
+                </h1>
             </div>
             <p className="paragraph text-center">Siz bu yerda <a href="https://dzero-null.vercel.app" className="text-purple-500">DZERO NULL</a> tomonidan yasalgan Kichik, Mobil, Desktop va Web proyektlarni ko'rishingiz mumkin bo'ladi!</p>
 
