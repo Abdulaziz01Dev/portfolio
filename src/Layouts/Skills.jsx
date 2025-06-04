@@ -1,34 +1,26 @@
-import React from 'react'
-import "../app/globals.css"
-import UsingNow from "../Components/ui/UsingNow"
-import Learned from "@/Components/ui/Learned";
-import OtherSkills from "@/Components/ui/OtherSkills";
+import React from 'react';
+import "../app/globals.css";
+import BestLayout from "@/Components/ui/BestLayout";
 
 const Skills = () => {
     return (
-        <section className="flex flex-col items-center pb-16 lg:items-left gap-6 w-full pt-44 px-16 lg:px-80">
-            <div className="flex justify-center lg:items-left border-4 dark:border-gray-200 border-black text-2xl py-4 w-[200px]">
-                <h1 className="dark:text-white text-black">Skills</h1>
+        <section className="relative flex flex-col gap-10 mt-10 p-5 w-full">
+
+            {/* Glassmorphism background card */}
+            <div className="absolute inset-0 -z-10">
+                <div className="w-[90%] mx-auto h-full rounded-3xl bg-white/10 opacity-50 border border-gray-400 shadow-xl" />
             </div>
-            <div className="skills-tabs">
-                <h1 className="skills-title">Using now:</h1>
-                <div>
-                    <UsingNow />
-                </div>
+
+            {/* Foreground content */}
+            <div className="flex flex-col items-center gap-10 z-10">
+                <h1 className="text-3xl text-gray-200 uppercase border-2 xl:transition-colors duration-300 border-purple-500 inline-block p-4 xl:hover:bg-purple-500 rounded-2xl cursor-pointer">
+                    Tajribam
+                </h1>
+                <BestLayout />
             </div>
-            <div className="skills-tabs">
-                <h1 className="skills-title">Learning:</h1>
-                <div>
-                    <Learned />
-                </div>
-            </div>
-            <div className="skills-tabs">
-                <h1 className="skills-title">Other skills:</h1>
-                <div>
-                    <OtherSkills />
-                </div>
-            </div>
+
         </section>
-    )
-}
-export default Skills
+    );
+};
+
+export default Skills;
