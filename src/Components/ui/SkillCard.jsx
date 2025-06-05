@@ -18,12 +18,12 @@ const SkillCard = ({ image, title, description, dateAos, dateDelay }) => {
         >
             <div className="card-inner">
                 <div className="card-front">
-                    <img src={image} alt="Skill icon" className="w-24 h-24" />
+                    <img src={image} alt="Skill icon" className="w-24 h-24 drop-shadow-sm drop-shadow-purple-950"/>
                 </div>
                 <div className="card-back">
-                    <img src={image} alt="Skill icon" className="w-10 h-10" />
-                    <h2 className="text-lg font-bold text-white mb-2 mt-2">{title}</h2>
-                    <p className="text-sm text-gray-200">{description}</p>
+                    <img src={image} alt="Skill icon" className="w-10 h-10 bg-white rounded-full p-2" />
+                    <h2 className="xl:text-md text-sm xl:font-bold text-white my-1">{title}</h2>
+                    <p className="xl:text-[12px] text-[10px] text-gray-200">{description}</p>
                 </div>
             </div>
         </div>

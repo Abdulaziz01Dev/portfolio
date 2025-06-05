@@ -46,7 +46,7 @@ const Slidebar = ({ text, percentage = 70 }) => {
 
     return (
         <div ref={containerRef} className="mb-6">
-            <h1 className="text-sm lg:text-2xl font-semibold mb-2">{text}</h1>
+            <h1 className="text-sm lg:text-2xl font-semibold mb-2 dark:text-white text-gray-500">{text}</h1>
             <div className="w-full h-[10px] bg-gray-200 rounded-full relative overflow-visible">
                 <div
                     ref={barRef}

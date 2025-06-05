@@ -4,11 +4,11 @@ import BestLayout from "@/Components/ui/BestLayout";
 
 const Skills = () => {
     return (
-        <section className="relative flex flex-col gap-10 mt-10 p-5 w-full">
+        <section className="relative flex flex-col gap-10 mt-80 py-5 w-full">
 
             {/* Glassmorphism background card */}
             <div className="absolute inset-0 -z-10">
-                <div className="w-[90%] mx-auto h-full rounded-3xl bg-white/10 opacity-50 border border-gray-400 shadow-xl" />
+                <div className="xl:w-[90%] w-full mx-auto h-full rounded-3xl bg-white/10 opacity-50 border border-gray-400 shadow-xl" />
             </div>
 
             {/* Foreground content */}

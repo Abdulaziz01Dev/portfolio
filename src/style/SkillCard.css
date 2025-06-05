@@ -1,6 +1,6 @@
 .card-container {
-    width: 180px;
-    height: 180px;
+    width: 150px;
+    height: 150px;
     perspective: 1000px;
     cursor: pointer;
     box-sizing: border-box;
@@ -37,14 +37,17 @@
 }
 
 .card-front {
-    background-color: #4c1d95;
+    background-color: #ad46ff;
     flex-direction: column;
+    box-shadow: 0 0 5px white;
 }
 
 .card-back {
-    background-color: #6b21a8;
+    /*background-color: #6b21a8;*/
     transform: rotateY(180deg);
     flex-direction: column;
     padding: 1rem;
     text-align: center;
+    border: 2px solid purple;
+    box-shadow: 0 0 5px #ad46ff;
 }

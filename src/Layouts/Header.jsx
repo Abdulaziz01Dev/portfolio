@@ -10,7 +10,7 @@ const Header = () => {
 
     return (
         <>
-            <header className="z-100 overflow-hidden w-full h-[8vh] fixed lg:top-5 left-1/2 lg:rounded-full transform shadow-md shadow-gray-[#1b1b1b] -translate-x-1/2 flex items-center px-4 lg:px-16 justify-between lg:transform lg:-translate-x-1/2 lg:w-[80%] bg-[#060112]">
+            <header className="z-100 overflow-hidden w-full h-[8vh] fixed lg:top-5 left-1/2 lg:rounded-full transform shadow-md shadow-gray-[#1b1b1b] -translate-x-1/2 flex items-center px-4 lg:px-16 justify-between lg:transform lg:-translate-x-1/2 lg:w-[80%] dark:bg-[#060112] bg-white">
                 <div className="flex items-center gap-1">
                     <img src="/iconka.png" alt="Dark logos" className="w-22 h-auto xl:w-32" />
                 </div>
@@ -31,10 +31,10 @@ const Header = () => {
                         <a href="/About" className="desktop-navbar-link"><li>Men Haqimda</li></a>
                         <a href="/Mobile" className="desktop-navbar-link"><li>Mobil Dasturlarim</li></a>
                         <a href="/Project" className="desktop-navbar-link"><li>Proyektlarim</li></a>
-                        <a href="/Skill" className="desktop-navbar-link"><li>Kampyuter Dasturi</li></a>
-                        <a href="/Conact" className="desktop-navbar-link"><li>Bog'lanish</li></a>
+                        <a href="/Desktop" className="desktop-navbar-link"><li>Kampyuter Dasturi</li></a>
+                        <a href="/Language" className="desktop-navbar-link"><li>Arab - Tili</li></a>
                     </ul>
-                    <Button text="Download CV"/>
+                    <Button text="CV yuklash"/>
                 </div>
             </header>
 
